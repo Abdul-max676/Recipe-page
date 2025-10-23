@@ -1,0 +1,76 @@
+/* Phone */
+
+@import url(https://fonts.google.com/specimen/Young+Serif);
+
+@import url(https://fonts.google.com/specimen/Outfit);
+
+* {
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.head {
+    
+}
+
+.head h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.3rem;
+}
+
+.head p{
+    font-weight: 400;
+}
+
+.prep {
+    background-color: hsla(332, 51%, 32%, 0.4);
+    border-radius: 8px;
+    padding-inline: 0.2rem;
+}
+
+.prep h3  {
+    background-color: hsla(332, 51%, 32%, 0.01);
+    color: hsl(332, 51%, 32%);
+}
+
+.prep ul  {
+    background-color: hsla(332, 51%, 32%, 0.01);
+}
+
+.prep ul li {
+    background-color: hsla(332, 51%, 32%, 0.01);
+    font-size: 1.2rem;
+}
+
+.prep ul li strong {
+    background-color: hsla(332, 51%, 32%, 0.01);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: hsl(14, 45%, 36%);
+    margin: 20px 0;
+}
+
+.ingredients {
+    font-size: 1.2rem;
+} 
+
+table td {
+    
+}
+
+
+/*Desktops*/
+
+@media (min-width: 650px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+    }
+
+}
